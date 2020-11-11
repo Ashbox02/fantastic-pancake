@@ -1,0 +1,15 @@
+.mainbutton {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20%;
+    align-items: center;
+    
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 200px;
+    
+    background-color: rgb(240, 247, 242);
+}
+
