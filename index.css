@@ -2,16 +2,20 @@
     display: flex;
     justify-content: center;
     margin: auto;
-    margin-top: 20%;
+    margin-top: 0%;
+    margin-left: 93%;
     align-items: center;
     border: none;
-    width: 150px;
+    width: 100px;
     height: 50px;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 200px;
     transition-duration: 0.4s;
     background-color: rgb(253, 251, 251);
-    border-radius: 4px;
+    border-radius: 24px;
+    outline: none;
+
+
     
 }
 
@@ -20,6 +24,17 @@
     color: white;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   }
+  .Header {
+      margin-top: 10%;
+      margin-left: 47.5%;
+      font-size: 30px;
+      font-weight: 200px;
+      font-family: "Times New Roman";
+  }
 
+.paragraph{
+    font-family: "Times New Roman";
+    margin-left: 17.5%;
+}
 
 
