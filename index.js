@@ -5,7 +5,7 @@ button.addEventListener("click", () => {
 
     if (x == 0) {
     let red = 30;
-    let green = 30
+    let green = 30;
     let blue = 30;
     document.body.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`;
     
