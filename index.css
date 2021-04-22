@@ -26,7 +26,7 @@
   }
   .Header {
       margin-top: 10%;
-      margin-left: 47.5%;
+      
       font-size: 30px;
       font-weight: 200px;
       font-family: "Times New Roman";
@@ -34,7 +34,7 @@
 
 .paragraph{
     font-family: "Times New Roman";
-    margin-left: 17.5%;
+    
 }
 
 .topnav {
@@ -48,7 +48,7 @@
     text-align: center;
     padding: 14px;
     width: 100px;
-    text-decoration: none;
+    text-decoration: dashed;
     font-size: 17px;
     
 }
@@ -66,3 +66,17 @@
 #paragraph-1 {
     color: #ffa64f
 }
+#main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color:  rgb(43, 42, 42);
+    justify-content: center;
+    }
+    #sub-container {
+        background-color:  rgb(43, 42, 42);
+        width: 75%;
+        text-align: center;
+        
+    }
