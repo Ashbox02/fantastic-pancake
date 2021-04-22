@@ -1,0 +1,57 @@
+.Header {
+    margin-top: 10%;
+   
+    font-size: 30px;
+    font-weight: 200px;
+    font-family: "Times New Roman";
+}
+
+.paragraph{
+  font-family: "Times New Roman";
+ 
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color:  #ffa64f;
+  text-align: center;
+  padding: 14px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+.topnav a:hover {
+  background-color : rgb(231, 164, 87);
+  color: black;
+}
+body {
+ background-color: rgb(43, 42, 42);
+}
+#header-welcome {
+  color: #ffa64f
+}
+#paragraph-1 {
+  color: #ffa64f
+}
+
+#main-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+background-color:  rgb(43, 42, 42);
+justify-content: center;
+}
+#sub-container {
+    background-color:  rgb(26, 25, 25);
+    width: 75%;
+    text-align: center;
+    
+}
