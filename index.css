@@ -1,15 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap%27');
+.Header {
+    margin-top: 10%;
+    font-size: 90px;
+    font-weight: 200px;
+    font-family: 'Lora', serif;
+}
 
-  .Header {
-      margin-top: 10%;
-      
-      font-size: 30px;
-      font-weight: 200px;
-      font-family: "Times New Roman";
-  }
+.Header2 {
+    font-size: 45px;
+    font-weight: 200px;
+    font-family: 'Lora', serif;
+    color: #c7493a;
+}
 
-.paragraph{
-    font-family: "Times New Roman";
-    
+.paragraph {
+    margin-top: 10%;
+    font-family: 'Lora', serif;
 }
 
 .topnav {
@@ -19,39 +26,55 @@
 
 .topnav a {
     float: left;
-    color:  #ffa64f;
+    color: #ffa64f;
     text-align: center;
     padding: 14px;
     width: 100px;
     text-decoration: dashed;
     font-size: 17px;
-    
+    font-family: 'Lora', serif;
 }
 
 .topnav a:hover {
-    background-color : rgb(231, 164, 87);
+    background-color: rgb(231, 164, 87);
     color: black;
 }
- body {
-   background-color: rgb(43, 42, 42);
+
+body {
+    background-color: rgb(43, 42, 42);
 }
+
 #header-welcome {
     color: #ffa64f
 }
+
 #paragraph-1 {
     color: #ffa64f
 }
+
+#header-titel {
+    color: #c7493a;
+}
+
 #main-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    background-color:  rgb(43, 42, 42);
+    background-color: #c7493a;
     justify-content: center;
-    }
-    #sub-container {
-        background-color:  rgb(43, 42, 42);
-        width: 75%;
-        text-align: center;
-        
-    }
+    width: 75%
+}
+
+#sub-container {
+    background-color: rgb(43, 42, 42);
+    width: 90%;
+    text-align: center;
+}
+
+#outer-container {
+    height: 800px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(43, 42, 42);
+    justify-content: center;
+}
